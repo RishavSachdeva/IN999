@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IN999 Hack Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <img src="logo.png" alt="IN999 Logo" class="logo">
+            <h1>IN999</h1>
+            <p>Welcome to IN999. Enter your period number and result type to see the result.</p>
+        </div>
+
+        <div class="form">
+            <div class="status">
+                <p>Server: <span class="connected">Connected</span></p>
+            </div>
+
+            <div class="input-group">
+                <label for="type">Type:</label>
+                <select id="type">
+                    <option value="big">Big</option>
+                    <option value="small">Small</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label for="period">Period:</label>
+                <input type="text" id="period" placeholder="Period Number">
+            </div>
+
+            <div class="input-group">
+                <button id="startHack">Start Hack</button>
+            </div>
+
+            <div class="result">
+                <p>Result: <span id="result"></span></p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
